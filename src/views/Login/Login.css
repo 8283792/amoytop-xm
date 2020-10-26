@@ -1,0 +1,29 @@
+.login {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: url('../../assets/images/loginBg.jpg');
+  background-size: contain;
+  text-align: center;
+}
+.logo {
+  width: 250px;
+  height: 250px;
+}
+.login-group {
+  padding: 0 28px;
+  background: rgba(225,225,225,0);
+}
+.login-btn {
+    position: absolute;
+    width: 90%;
+    top: 430px;
+    left: 5%;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    background: rgb(254, 0, 0);
+}

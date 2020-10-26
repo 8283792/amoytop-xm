@@ -1,0 +1,37 @@
+.detail {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  bottom: 0;
+  background: #fff;
+  z-index: 20;
+}
+.tabs {
+  height: calc(100vh - 46px);
+  padding-top: 0;
+  margin-top: -1px;
+}
+.lyophilizer {
+  width: 72%;
+  margin: 0 auto 8px auto;
+}
+.params-wrapper {
+  padding: 0 20%;
+}
+.param-wrapper ul {
+  display: flex;
+  justify-content: space-between;
+}
+.param-wrapper li {
+  font-size: .8rem;
+}
+.paramBox {
+  width: 106px;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  background: rgb(235, 235, 235);
+  border: 1px solid #000;
+  color: rgb(184, 14, 14);
+  margin: 8px 0;
+  text-align: center;
+}
